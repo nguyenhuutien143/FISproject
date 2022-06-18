@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: fis-training-test-02
+  datasource:
+    url: jdbc:mysql://localhost:3306/fis_test2?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 1234$
+  jpa:
+    show-sql: true
+    generate-ddl: true
